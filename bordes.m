@@ -3,9 +3,7 @@ function bordes()
     function [nueva] = R(matriz)
         [M,N] = size(matriz);
         nueva = zeros(M,N);
-        for i=1:M
-            for j=1:N
-      
+        
     
     function [Is] = dilatacion(I, B, k)
         [M,N] = size(I);
