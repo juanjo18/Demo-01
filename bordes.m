@@ -5,10 +5,7 @@ function bordes()
         nueva = zeros(M,N);
         for i=1:M
             for j=1:N
-                nueva(M+1-i,N+1-j) = matriz(i,j);
-            end
-        end
-    end
+      
     
     function [Is] = dilatacion(I, B, k)
         [M,N] = size(I);
